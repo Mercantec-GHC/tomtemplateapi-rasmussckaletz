@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\obj\\Debug\\net8.0\\compressed\\sllslhlv1j.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\obj\\Debug\\net8.0\\scopedcss\\bundle\\APIVisualizing.styles.css",
+      "PackagePath": "staticwebassets\\APIVisualizing.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Rasmus\\RiderProjects\\APIVisualizing\\APIVisualizing\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.APIVisualizing.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.APIVisualizing.props",
+      "PackagePath": "build\\APIVisualizing.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.APIVisualizing.props",
+      "PackagePath": "buildMultiTargeting\\APIVisualizing.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.APIVisualizing.props",
+      "PackagePath": "buildTransitive\\APIVisualizing.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

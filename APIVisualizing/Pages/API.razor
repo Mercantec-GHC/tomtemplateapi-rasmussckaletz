@@ -1,0 +1,57 @@
+﻿@page "/apidata"
+@inject HttpClient Http
+
+<PageTitle>API Data</PageTitle>
+
+@if (_miles95 == null || _diesel == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <div class="container">
+        <ApexChart 
+            Title="Gasoline Prices"
+            TItem="GasolinePrices"
+            >
+
+            <ApexPointSeries 
+                TItem="GasolinePrices" 
+                Items="_miles95" 
+                Name="Miles95" 
+                SeriesType="SeriesType.Line"
+                XValue="@(item => item.Date.ToString("yyyy-MM-dd"))" 
+                YValue="@(item => item.Price)" 
+            />
+                
+            <ApexPointSeries 
+                TItem="GasolinePrices" 
+                Items="_diesel" 
+                Name="Diesel" 
+                SeriesType="SeriesType.Line"
+                XValue="@(item => item.Date.ToString("yyyy-MM-dd"))" 
+                YValue="@(item => item.Price)" 
+            />
+
+        </ApexChart>
+    </div>
+}
+
+@code {
+    private GasolinePrices[]? _miles95;
+    private GasolinePrices[]? _diesel;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _miles95 = await Http.GetFromJsonAsync<GasolinePrices[]>("https://magsapi.onrender.com/api/miles95");
+        _diesel = await Http.GetFromJsonAsync<GasolinePrices[]>("https://magsapi.onrender.com/api/diesel");
+    }
+
+    public class GasolinePrices
+    {
+        public decimal Price { get; set; }
+        public DateOnly Date { get; set; }
+    }
+}
